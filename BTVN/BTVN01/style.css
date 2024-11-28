@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+header div {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px;
+}
+
+button.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+button.btn-add {
+    background-color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #ffffff;
+}
+
+
+a.btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.btn-edit {
+    background-color: #007bff;
+}
+
+a.btn-delete {
+    background-color: #dc3545;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px 0;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-top: 2px solid #2b2b2b;
+    font-size: 20px;
+}
